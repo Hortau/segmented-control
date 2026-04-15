@@ -252,10 +252,10 @@ Extends [ViewStyles](https://reactnative.dev/docs/view-style-props)
 
 ### `maxFontSizeMultiplier`
 
-(Android and Web only) Max Font Size Multiplier for accessiblity 
+(Android and Web only) Max Font Size Multiplier for accessibility 
 | Type | Required | Platform |
 | ------ | -------- | -------- |
-| object | No | Android, Web |
+| number | No | Android, Web |
 
 ## Tips and Tricks
 

@@ -120,4 +120,8 @@ export type SegmentedControlProps = $ReadOnly<{|
    * Accessibility hint separator text
    */
   accessibilityHintSeperator?: string,
+  /**
+   * The maximum font size multiplier for the text in the segmented control.
+   */
+  maxFontSizeMultiplier?: number;
 |}>;

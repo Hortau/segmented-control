@@ -30,6 +30,7 @@ type Props = $ReadOnly<{|
   appearance?: 'dark' | 'light' | null,
   accessibilityHint?: string,
   testID?: string,
+  maxFontSizeMultiplier?: number,
 |}>;
 
 function isBase64(str: mixed): boolean {
