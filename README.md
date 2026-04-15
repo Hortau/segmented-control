@@ -250,6 +250,13 @@ Extends [ViewStyles](https://reactnative.dev/docs/view-style-props)
 
 Extends [ViewStyles](https://reactnative.dev/docs/view-style-props)
 
+### `maxFontSizeMultiplier`
+
+(Android and Web only) Max Font Size Multiplier for accessiblity 
+| Type | Required | Platform |
+| ------ | -------- | -------- |
+| object | No | Android, Web |
+
 ## Tips and Tricks
 
 ### How can I increase the height of the tab ?

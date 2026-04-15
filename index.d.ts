@@ -116,6 +116,11 @@ export interface SegmentedControlProps extends ViewProps {
    * Style properties for the Animated.View component
    */
   sliderStyle?: ViewStyle;
+
+  /**
+   * The maximum font size multiplier for the text in the segmented control.
+   */
+  maxFontSizeMultiplier?: number;
 }
 
 /**

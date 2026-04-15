@@ -39,6 +39,7 @@ const SegmentedControl = ({
   accessibilityHintSeperator = 'out of',
   testIDS,
   sliderStyle,
+  maxFontSizeMultiplier,
 }: SegmentedControlProps): React.Node => {
   const colorSchemeHook = useColorScheme();
   const colorScheme = appearance || colorSchemeHook;
@@ -60,6 +61,9 @@ const SegmentedControl = ({
 
   const updateSegmentWidth = React.useCallback(
     (width: number) => {
+      if (!width) {
+        return;
+      }
       const newSegmentWidth = values.length ? width / values.length : 0;
       if (newSegmentWidth !== segmentWidth) {
         animation.setValue(newSegmentWidth * (selectedIndex || 0));
@@ -148,6 +152,7 @@ const SegmentedControl = ({
                 onSelect={() => {
                   handleChange(index);
                 }}
+                maxFontSizeMultiplier={maxFontSizeMultiplier}
               />
             );
           })}
