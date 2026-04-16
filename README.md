@@ -1,4 +1,4 @@
-# `@react-native-segmented-control/segmented-control`
+# `@hortau/segmented-control`
 
 ![Supports iOS and Android and Web][support-badge]![Github Action Badge][gha-badge] ![npm][npm-badge] [![Lean Core Extracted][lean-core-badge]][lean-core-issue]
 
@@ -291,6 +291,12 @@ If padding amount exceeds the fixed height of the container, it will shrink the 
 ## Contributing
 
 Please see the [`contributing guide`](/CONTRIBUTING.md).
+
+## Publish to GitHub Packages
+```shell
+npm login --scope=@hortau --auth-type=legacy --registry=https://npm.pkg.github.com
+npm publish
+```
 
 ## License
 

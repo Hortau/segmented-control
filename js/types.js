@@ -123,5 +123,5 @@ export type SegmentedControlProps = $ReadOnly<{|
   /**
    * The maximum font size multiplier for the text in the segmented control.
    */
-  maxFontSizeMultiplier?: number;
+  maxFontSizeMultiplier?: number,
 |}>;

@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-segmented-control/segmented-control",
+  "name": "@hortau/segmented-control",
   "version": "2.5.7",
   "description": "React Native SegmentedControlIOS library",
   "main": "js/index.js",
@@ -66,7 +66,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-segmented-control/segmented-control.git"
+    "url": "git+https://github.com/hortau/segmented-control.git"
   },
   "keywords": [
     "SegmentedControlIOS",
@@ -75,9 +75,9 @@
   "author": "M.Haris Baig",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-segmented-control/segmented-control/issues"
+    "url": "https://github.com/hortau/segmented-control/issues"
   },
-  "homepage": "https://github.com/react-native-segmented-control/segmented-control#readme",
+  "homepage": "https://github.com/hortau/segmented-control#readme",
   "publishConfig": {
     "access": "public"
   }

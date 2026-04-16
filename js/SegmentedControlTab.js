@@ -110,7 +110,11 @@ export const SegmentedControlTab = ({
         ) : isBase64(value) ? (
           <Image source={{uri: value}} style={styles.segmentImage} />
         ) : (
-          <Text style={[idleStyle, selected && activeStyle]} maxFontSizeMultiplier={maxFontSizeMultiplier}>{value}</Text>
+          <Text
+            style={[idleStyle, selected && activeStyle]}
+            maxFontSizeMultiplier={maxFontSizeMultiplier}>
+            {value}
+          </Text>
         )}
       </View>
     </TouchableOpacity>
